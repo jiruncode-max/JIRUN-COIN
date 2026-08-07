@@ -861,7 +861,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let selectedCoins = 30;
     let selectedPrice = 0.31;
-    let selectedMethod = 'Credit/Debit Card';
+    let selectedMethod = 'DANA';
     let customAmount = '';
     let countdownInterval;
     let isAccountFound = false;
@@ -1151,9 +1151,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.coin-option[data-coins="30"]').classList.add('selected');
         selectedCoins = 30;
         selectedPrice = 0.31;
-        selectedMethod = 'Credit/Debit Card';
+        selectedMethod = 'DANA';
         paymentOptions.forEach(opt => opt.classList.remove('selected'));
-        document.querySelector('.payment-option[data-method="Credit/Debit Card"]').classList.add('selected');
+        document.querySelector('.payment-option[data-method="DANA"]').classList.add('selected');
         window.scrollTo(0, 0);
     }
 
