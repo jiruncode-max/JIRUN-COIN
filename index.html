@@ -1106,7 +1106,7 @@ document.addEventListener('DOMContentLoaded', () => {
             transactionHistory.unshift(newTransaction);
             updateRiwayatBadge();
 
-            // Set timer 30 detik (30000ms) untuk mengubah status menjadi 'Sukses'
+            // Set timer 10 (1000ms) untuk mengubah status menjadi 'Sukses'
             setTimeout(() => {
                 newTransaction.status = 'Sukses';
                 // Jika modal riwayat sedang terbuka, re-render datanya agar status terupdate di UI
